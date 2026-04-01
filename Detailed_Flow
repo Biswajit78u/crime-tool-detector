@@ -1,1 +1,45 @@
+1. DATA INPUT
+   ├── Text Files (.txt)
+   └── CSV Files (labels)
+         ↓
 
+2. TEXT PROCESSING
+   ├── Tokenization
+   ├── Stopword Removal
+   ├── TF-IDF Vectorization
+         ↓
+
+3. FEATURE EXTRACTION
+   ├── Convert text to numbers
+   ├── Create feature matrix
+   └── 5000-dimensional vectors
+         ↓
+
+4. MODEL TRAINING
+   ├── Train 6 models simultaneously
+   ├── Random Forest
+   ├── SVM
+   ├── Logistic Regression
+   ├── Neural Network
+   ├── Decision Tree
+   └── KNN
+         ↓
+
+5. EVALUATION
+   ├── Accuracy
+   ├── Precision
+   ├── Recall
+   └── F1-Score
+         ↓
+
+6. PREDICTION
+   ├── New text input
+   ├── Convert to features
+   ├── Predict crime tools
+   └── Return tool names
+         ↓
+
+7. DASHBOARD
+   ├── Filter options
+   ├── Data table
+   └── Interactive interface
